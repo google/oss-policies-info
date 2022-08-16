@@ -2,8 +2,8 @@
 
 | Dimension       | Supported Version    | Last Changed |
 |-----------------|----------------------|--------------|
-| PHP Version     | >= 7.4               | 2022-03-23   |
-| Composer        | >= 2.2               | 2022-03-23   |
+| PHP Version     | >= 7.4               | 2022-08-16   |
+| Composer        | >= 2.2               | 2022-08-16   |
 
 ### Footnotes
 
