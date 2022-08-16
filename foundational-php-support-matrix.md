@@ -7,4 +7,4 @@
 
 ### Footnotes
 
-The relevant policies are described at https://opensource.google/documentation/policies/cplusplus-support.
+The relevant policies are described at https://cloud.google.com/php/getting-started/supported-php-versions.
