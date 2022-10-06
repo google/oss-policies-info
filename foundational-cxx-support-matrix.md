@@ -25,6 +25,8 @@
 
 ### Footnotes
 
+The relevant policies are described at https://opensource.google/documentation/policies/cplusplus-support.
+
 #### RHEL 7
 
 We require the [devtoolset-7] toolchain (compiler, linker, build tools, etc.) on
