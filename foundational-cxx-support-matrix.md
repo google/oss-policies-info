@@ -37,7 +37,7 @@ version.
 [^gcc]: Once RHEL 7 reaches EOL we will support the oldest version of GCC
 that ships with one of the supported distros.
 
-[^clang]: We support the oldest version of CLang that ships with one of the
+[^clang]: We support the oldest version of Clang that ships with one of the
 supported distros. Currently that is CLang 7.0 as Ubuntu 20.04 ships with
 this version.
 
