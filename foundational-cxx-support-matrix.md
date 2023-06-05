@@ -38,7 +38,7 @@ version.
 that ships with one of the supported distros.
 
 [^clang]: We support the oldest version of Clang that ships with one of the
-supported distros. Currently that is CLang 7.0 as Ubuntu 20.04 ships with
+supported distros. Currently that is Clang 7.0 as Ubuntu 20.04 ships with
 this version.
 
 ### Notes
