@@ -9,7 +9,7 @@
 | Clang           | >= 7.0.0               | 2023-06-01   | 2025-04-02 [^clang] |
 | MSVC            | >= 2019                | 2023-03-10   | 2024-05-01  |
 | Apple Clang     | >= 12                  | 2022-07-01   | |
-| Android NDK API | == 19                  | 2022-07-01   | |
+| Android NDK API | == 21                  | 2022-09-18   | |
 | Alpine          | >= 3.15                | 2023-07-07   | 2023-11-01 |
 | Debian          | >= 10                  | 2022-07-01   | 2024-07-01 |
 | Fedora          | >= 37                  | 2023-07-07   | 2023-11-01 |
@@ -21,7 +21,7 @@
 | Windows Server  | >= 2019                | 2022-02-24   | 2024-02-01 |
 | Windows Client  | >= 10                  | 2022-07-01   | 2025-11-01 |
 | macOS           | >= 10.13 (High Sierra) | 2023-05-05   | 2024-05-05 |
-| iOS             | >= 12.0                | 2022-07-01   | |
+| iOS             | >= 14.0.1              | 2023-09-18   | |
 
 [^next-change]: This is an estimated date. The actual date may change if the
 vendor (or community, as applicable) extends or shortens the lifetime of the
