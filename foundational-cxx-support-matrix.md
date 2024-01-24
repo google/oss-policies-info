@@ -20,8 +20,8 @@
 | RockyLinux      | 8                      | 2022-07-01   | 2024-06-01 |
 | Windows Server  | >= 2022                | 2024-01-22   | 2026-10-13 |
 | Windows Client  | >= 10                  | 2022-07-01   | 2025-11-01 |
-| macOS           | >= 10.13 (High Sierra) | 2023-05-05   | 2024-05-05 |
-| iOS             | >= 14.0.1              | 2023-09-18   | |
+| macOS           | >= 10.15 (Catalina)    | 2024-01-24   | 2024-05-05 |
+| iOS             | >= 15                  | 2024-01-24   | |
 
 [^next-change]: This is an estimated date. The actual date may change if the
 vendor (or community, as applicable) extends or shortens the lifetime of the
