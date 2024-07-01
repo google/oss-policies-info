@@ -3,7 +3,7 @@
 | Dimension       | Supported Version      | Last Changed | Next Change [^next-change] |
 |-----------------|------------------------|--------------|-------------|
 | C++ Version     | >= 14                  | 2022-07-01   | 2024-12-15  |
-| CMake           | >= 3.18                | 2024-07-01   | 2024-11-22 [^cmake] |
+| CMake           | >= 3.16                | 2024-07-01   | 2024-11-22 [^cmake] |
 | Bazel           | 6 LTS                  | 2023-04-18   | 2024-11-01  |
 | GCC             | >= 7.5.0               | 2024-07-01   | 2026-01-01 [^gcc] |
 | Clang           | >= 7.0.0               | 2023-06-01   | 2025-04-02 [^clang] |
@@ -27,7 +27,7 @@ vendor (or community, as applicable) extends or shortens the lifetime of the
 dimension in question.
 
 [^cmake]: We support the oldest version of CMake that ships with one of the
-supported distros. Currently that is CMake 3.18 as Debian 11 ships with this
+supported distros. Currently that is CMake 3.16 as Ubuntu 20.04 ships with this
 version.
 
 [^gcc]: Once openSUSE/Leap 15.5 reaches EOL we will support the oldest
