@@ -21,7 +21,7 @@
 | Windows Client  | >= 10                  | 2022-07-01   | 2025-11-01 |
 | macOS           | >= 10.15 (Catalina)    | 2024-01-24   | 2024-07-01 |
 | iOS             | >= 15                  | 2024-01-24   | |
-| glibc           | >= 3.27                | 2024-07-09   | TBD [^gblibc] |
+| glibc           | >= 3.27                | 2024-07-09   | TBD [^glibc] |
 | musl            | >= 1.2.3-r5            | 2024-07-09   | 2024-11-22 |
 
 [^next-change]: This is an estimated date. The actual date may change if the
