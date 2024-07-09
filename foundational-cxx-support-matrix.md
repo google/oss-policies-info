@@ -21,6 +21,8 @@
 | Windows Client  | >= 10                  | 2022-07-01   | 2025-11-01 |
 | macOS           | >= 10.15 (Catalina)    | 2024-01-24   | 2024-07-01 |
 | iOS             | >= 15                  | 2024-01-24   | |
+| glibc           | >= 3.27                | 2024-07-09   | TBD [^gblibc] |
+| musl            | >= 1.2.3-r5            | 2024-07-09   | 2024-11-22 |
 
 [^next-change]: This is an estimated date. The actual date may change if the
 vendor (or community, as applicable) extends or shortens the lifetime of the
@@ -36,6 +38,8 @@ version of GCC that ships with one of the supported distros.
 [^clang]: We support the oldest version of Clang that ships with one of the
 supported distros. Currently that is Clang 7.0 as Ubuntu 20.04 ships with
 this version.
+
+[^glibc]: We plan to support glibc >= 2.27 until further notice.
 
 ### Notes
 
