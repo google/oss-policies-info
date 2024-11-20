@@ -23,7 +23,7 @@ Policy](https://opensource.google/documentation/policies/dotnet-support).
 
 | Dimension       | Supported Version | TFM[^tfm] | Last Changed | Next Change [^next-change] |
 |-----------------|-------------------|-----------|--------------|----------------------------|
-| .NET            | >= 6.0            | net6.0    | 2024-01-17   | 2024-11-12                 |
+| .NET            | >= 8.0            | net8.0    | 2024-11-18   | 2026-11-10                 |
 | .NET Framework  | >= 4.6.2          | net462    | 2024-01-17   | 2027-01-12                 |
 
 [^tfm]: Target Framework Moniker
