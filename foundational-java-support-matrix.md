@@ -12,4 +12,10 @@ dimension in question.
 
 ### Footnotes
 
-The relevant policies are described at https://cloud.google.com/java/docs/supported-java-versions
+The relevant policies are described at https://cloud.google.com/java/docs/supported-java-versions.
+
+On Android, we support the minimum SDK version that is supported by
+[Google Play services](https://developers.google.com/android/guides/setup) and
+is the default in
+[Jetpack](https://android.googlesource.com/platform/frameworks/support/+/refs/heads/androidx-main/docs/api_guidelines/modules.md#module-minsdkversion).
+If both versions differ, the lower version is supported.
