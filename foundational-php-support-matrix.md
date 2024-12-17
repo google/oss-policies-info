@@ -2,7 +2,7 @@
 
 | Dimension   | Supported Version | Last Changed | Next Change [^next-change] |
 |-------------|-------------------|--------------|----------------------------|
-| PHP Version | >= 8.1            | 2024-01-22   | 2024-11-26                 |
+| PHP Version | >= 8.1            | 2024-01-22   | 2025-12-31                 |
 | Composer    | >= 2.8            | 2024-10-07   | 2025-01-01                 |
 
 [^next-change]: This is an estimated date. The actual date may change if the
