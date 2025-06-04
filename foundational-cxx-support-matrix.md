@@ -3,18 +3,18 @@
 | Dimension       | Supported Version      | Last Changed | Next Change [^next-change] |
 |-----------------|------------------------|--------------|-------------|
 | C++ Version     | >= 17                  | 2024-12-17   | 2027-12-15  |
-| CMake           | >= 3.16                | 2024-12-17   | 2025-06-02 [^cmake] |
+| CMake           | >= 3.22                | 2025-06-04   | 2027-05-01 [^cmake] |
 | Bazel           | 8 LTS, 7 LTS           | 2025-05-12   | 2025-11-01  |
 | GCC             | >= 7.5.0               | 2024-07-01   | 2026-01-01 [^gcc] |
-| Clang           | >= 7.0.0               | 2023-06-01   | 2025-06-02 [^clang] |
+| Clang           | >= 14.0.0              | 2025-06-04   | 2027-05-01 [^clang] |
 | MSVC            | >= 2022                | 2024-04-29   | 2027-01-12  |
 | Apple Clang     | >= 12                  | 2022-07-01   | 2025-07-30 |
 | Android NDK API | == 21                  | 2022-09-18   | |
-| Alpine          | >= 3.18                | 2024-07-01   | 2025-05-09 |
+| Alpine          | >= 3.19                | 2024-07-01   | 2025-11-01 |
 | Debian          | >= 11                  | 2024-07-01   | 2026-06-30 |
 | Fedora          | >= 40                  | 2024-12-17   | 2025-05-28 |
 | openSUSE        | >= Leap 15.6           | 2024-12-31   | 2025-12-31 |
-| Ubuntu LTS      | >= 20.04               | 2023-06-01   | 2025-06-02 |
+| Ubuntu LTS      | >= 22.04               | 2025-06-04   | 2027-05-01 |
 | RHEL            | >= 9                   | 2024-07-01   | 2027-06-01 |
 | RockyLinux      | >= 9                   | 2024-07-01   | 2027-06-01 |
 | Windows Server  | >= 2022                | 2024-01-22   | 2026-10-13 |
@@ -36,7 +36,7 @@ version.
 version of GCC that ships with one of the supported distros.
 
 [^clang]: We support the oldest version of Clang that ships with one of the
-supported distros. Currently that is Clang 7.0 as Ubuntu 20.04 ships with
+supported distros. Currently that is Clang 14.0 as Ubuntu 22.04 ships with
 this version.
 
 [^glibc]: We plan to support glibc >= 2.27 until further notice.
