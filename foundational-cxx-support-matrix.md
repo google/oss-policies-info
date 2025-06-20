@@ -29,7 +29,7 @@ vendor (or community, as applicable) extends or shortens the lifetime of the
 dimension in question.
 
 [^cmake]: We support the oldest version of CMake that ships with one of the
-supported distros. Currently that is CMake 3.16 as Ubuntu 20.04 ships with this
+supported distros. Currently that is CMake 3.22 as Ubuntu 22.04 ships with this
 version.
 
 [^gcc]: Once openSUSE/Leap 15.5 reaches EOL we will support the oldest
