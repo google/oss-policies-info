@@ -5,6 +5,7 @@ This document captures the specific version numbers as resolved by those policie
 
 ## Linux distributions
 | Distribution    | Supported Version      | Last Changed | Next Change [^next-change] |
+|-----------------|------------------------|--------------|-------------|
 | Alpine          | >= 3.19                | 2025-06-04   | 2025-11-01 |
 | Debian          | >= 11                  | 2024-07-01   | 2026-06-30 |
 | Fedora          | >= 41                  | 2025-06-04   | 2025-12-01 |
@@ -15,17 +16,20 @@ This document captures the specific version numbers as resolved by those policie
 
 ## Windows
 | Dimension       | Supported Version      | Last Changed | Next Change [^next-change] |
+|-----------------|------------------------|--------------|-------------|
 | Windows Server  | >= 2022                | 2024-01-22   | 2026-10-13 |
 | Windows Client  | >= 10                  | 2022-07-01   | 2025-11-01 |
 
 ## macOS
 | Dimension         | Supported Version      | Last Changed | Next Change [^next-change] |
+|-----------------|------------------------|--------------|-------------|
 | Xcode             | >= 26                  | 2025-09-15   | 2026-09-15 |
 | macOS (target)    | >= 11 (Big Sur)        | 2024-09-17   | 2025-07-30 |
 | iOS  (target)     | >= 15                  | 2024-01-24   | 2025-07-30 |
 
 ## Android NDK
 | Dimension              | Supported Version      | Last Changed | Next Change [^next-change] |
+|-----------------|------------------------|--------------|-------------|
 | Android API (target)   | == 21                  | 2022-09-18   |  |
 
 ## Compilers, tools, build systems
