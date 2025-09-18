@@ -22,14 +22,14 @@ This document captures the specific version numbers as resolved by those policie
 
 ## macOS
 | Dimension         | Supported Version      | Last Changed | Next Change [^next-change] |
-|-----------------|------------------------|--------------|-------------|
+|-------------------|------------------------|--------------|-------------|
 | Xcode             | >= 26                  | 2025-09-15   | 2026-09-15 |
 | macOS (target)    | >= 11 (Big Sur)        | 2024-09-17   | 2025-07-30 |
 | iOS  (target)     | >= 15                  | 2024-01-24   | 2025-07-30 |
 
 ## Android NDK
 | Dimension              | Supported Version      | Last Changed | Next Change [^next-change] |
-|-----------------|------------------------|--------------|-------------|
+|------------------------|------------------------|--------------|----------------------------|
 | Android API (target)   | >= 21                  | 2022-09-18   |  |
 
 ## Compilers, tools, build systems
