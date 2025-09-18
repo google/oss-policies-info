@@ -3,7 +3,7 @@
 
 | Dimension       | Supported Version | Last Changed | Next Change [^next-change] |
 |-----------------|-------------------|--------------|----------------------------|
-| Ruby Version    | >= 3.1            | 2025-06-02   | 2025-09-15                 |
+| Ruby Version    | >= 3.2            | 2025-03-31   | 2026-03-31                 |
 
 [^next-change]: This is an estimated date. The actual date may change if the
 vendor (or community, as applicable) extends or shortens the lifetime of the
