@@ -30,7 +30,7 @@ This document captures the specific version numbers as resolved by those policie
 ## Android NDK
 | Dimension              | Supported Version      | Last Changed | Next Change [^next-change] |
 |-----------------|------------------------|--------------|-------------|
-| Android API (target)   | == 21                  | 2022-09-18   |  |
+| Android API (target)   | >= 21                  | 2022-09-18   |  |
 
 ## Compilers, tools, build systems
 
