@@ -1,7 +1,7 @@
 
 # Foundational Java Support
 
-The relevant policies are described at https://opensource.google/documentation/policies/cplusplus-support. This document captures the specific version numbers as resolved by those policies.
+The relevant policies are described at https://cloud.google.com/java/docs/supported-java-versions. This document captures the specific version numbers as resolved by those policies.
 
 | Dimension         | Supported Version | Last Changed | Next Change [^next-change] |
 |-------------------|-------------------|--------------|----------------------------|
