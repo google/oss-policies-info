@@ -1,5 +1,7 @@
 # Foundational PHP Support
 
+The relevant policies are described at https://cloud.google.com/php/getting-started/supported-php-versions. This document captures the specific version numbers as resolved by those policies.
+
 | Dimension   | Supported Version | Last Changed | Next Change [^next-change] |
 |-------------|-------------------|--------------|----------------------------|
 | PHP Version | >= 8.1            | 2024-12-17   | 2025-12-31                 |
@@ -9,6 +11,3 @@
 vendor (or community, as applicable) extends or shortens the lifetime of the
 dimension in question.
 
-### Footnotes
-
-The relevant policies are described at https://cloud.google.com/php/getting-started/supported-php-versions.
