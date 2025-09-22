@@ -1,6 +1,8 @@
 
 # Foundational Ruby Support
 
+The relevant policies are described at https://cloud.google.com/ruby/getting-started/supported-ruby-versions. This document captures the specific version numbers as resolved by those policies.
+
 | Dimension       | Supported Version | Last Changed | Next Change [^next-change] |
 |-----------------|-------------------|--------------|----------------------------|
 | Ruby Version    | >= 3.1            | 2025-06-02   | 2025-09-15                 |
@@ -9,6 +11,3 @@
 vendor (or community, as applicable) extends or shortens the lifetime of the
 dimension in question.
 
-### Footnotes
-
-The relevant policies are described at https://cloud.google.com/ruby/getting-started/supported-ruby-versions.
