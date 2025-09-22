@@ -1,6 +1,8 @@
 
 # Foundational Java Support
 
+The relevant policies are described at https://opensource.google/documentation/policies/cplusplus-support. This document captures the specific version numbers as resolved by those policies.
+
 | Dimension         | Supported Version | Last Changed | Next Change [^next-change] |
 |-------------------|-------------------|--------------|----------------------------|
 | Java Version      | >= 8              | 2024-01-30   | 2026-11-12                 |
@@ -11,8 +13,6 @@ vendor (or community, as applicable) extends or shortens the lifetime of the
 dimension in question.
 
 ### Footnotes
-
-The relevant policies are described at https://cloud.google.com/java/docs/supported-java-versions.
 
 On Android, we support the minimum SDK version that is supported by
 [Google Play services](https://developers.google.com/android/guides/setup) and
