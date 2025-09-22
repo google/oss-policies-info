@@ -54,7 +54,3 @@ choose to target .NET Standard, typically .NET Standard 2.0
 Standard](https://devblogs.microsoft.com/dotnet/the-future-of-net-standard/)
 so there are no dates for when .NET Standard support will be removed
 or updated.
-
-### Footnotes
-
-The relevant policies are described at https://opensource.google/documentation/policies/dotnet-support
