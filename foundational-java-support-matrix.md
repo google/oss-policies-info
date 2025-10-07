@@ -15,7 +15,7 @@ dimension in question.
 ### Footnotes
 
 On Android, we support the minimum SDK version that is supported by
-[Google Play services](https://developers.google.com/android/guides/setup) and
-is the default in
-[Jetpack](https://android.googlesource.com/platform/frameworks/support/+/refs/heads/androidx-main/docs/api_guidelines/modules.md#module-minsdkversion).
-If both versions differ, the lower version is supported.
+[Android NDK](https://android.googlesource.com/platform/ndk/+/master/meta/platforms.json),
+[Google Play services](https://developers.google.com/android/guides/setup),
+and [Jetpack](https://android.googlesource.com/platform/frameworks/support/+/refs/heads/androidx-main/docs/api_guidelines/modules.md#module-minsdkversion).
+If the versions differ, the lower version is supported.
