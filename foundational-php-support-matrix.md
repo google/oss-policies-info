@@ -5,7 +5,7 @@ The relevant policies are described at https://cloud.google.com/php/getting-star
 | Dimension   | Supported Version | Last Changed | Next Change [^next-change] |
 |-------------|-------------------|--------------|----------------------------|
 | PHP Version | >= 8.1            | 2024-12-17   | 2025-12-31                 |
-| Composer    | >= 2.8            | 2024-10-07   | 2025-07-02                 |
+| Composer    | >= 2.9            | 2025-12-16   | 2026-04-01                 |
 
 [^next-change]: This is an estimated date. The actual date may change if the
 vendor (or community, as applicable) extends or shortens the lifetime of the
