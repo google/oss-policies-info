@@ -41,7 +41,7 @@ shown here. (Target frameworks are not automatically updated on minor releases.)
 
 | Dimension       | Supported Version | TFM    | Last Changed | Next Change |
 |-----------------|-------------------|--------|--------------|-------------|
-| .NET            | >= 6.0            | net6.0 | 2024-01-17   | 2025-11-12  |
+| .NET            | >= 8.0            | net8.0 | 2025-12-16   | 2026-11-10  |
 | .NET Framework  | >= 4.6.2          | net462 | 2024-01-17   | 2027-01-12  |
 
 ## .NET Standard
