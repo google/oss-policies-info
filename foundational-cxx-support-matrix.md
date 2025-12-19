@@ -3,6 +3,8 @@
 The relevant policies are described at https://opensource.google/documentation/policies/cplusplus-support.
 This document captures the specific version numbers as resolved by those policies.
 
+Note that some of these version supports apply broadly to other languages as well, and are not exclusive to C++.
+
 ## Linux distributions
 | Distribution    | Supported Version      | Last Changed | Next Change [^next-change] |
 |-----------------|------------------------|--------------|-------------|
@@ -42,7 +44,7 @@ This document captures the specific version numbers as resolved by those policie
 | GCC             | >= 7.5.0               | 2024-07-01   | 2026-01-01 [^gcc] |
 | Clang           | >= 14.0.0              | 2025-06-04   | 2027-05-01 [^clang] |
 | MSVC            | >= 2022                | 2024-04-29   | 2027-01-12  |
-| Apple Clang     | >= 13                  | 2025-12-16   | 2026-07-01 |
+| Apple Clang     | >= 17                  | 2025-12-19   | 2026-07-01 |
 | glibc           | >= 2.27                | 2024-07-09   | TBD [^glibc] |
 | musl            | >= 1.2.4               | 2024-12-17   | 2025-05-09 |
 
