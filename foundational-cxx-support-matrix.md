@@ -8,10 +8,10 @@ Note that some of these version supports apply broadly to other languages as wel
 ## Linux distributions
 | Distribution    | Supported Version      | Last Changed | Next Change [^next-change] |
 |-----------------|------------------------|--------------|-------------|
-| Alpine          | >= 3.20                | 2025-12-16   | 2026-04-01 |
+| Alpine          | >= 3.21                | 2026-04-01   | 2026-11-01 |
 | Debian          | >= 11                  | 2024-07-01   | 2026-06-30 |
 | Fedora          | >= 42                  | 2025-12-16   | 2026-05-13 |
-| openSUSE        | >= Leap 15.6           | 2024-12-31   | 2025-12-31 |
+| openSUSE        | >= Leap 15.6           | 2024-12-31   | 2026-04-30 |
 | Ubuntu LTS      | >= 22.04               | 2025-06-04   | 2027-05-01 |
 | RHEL            | >= 9                   | 2024-07-01   | 2027-06-01 |
 | RockyLinux      | >= 9                   | 2024-07-01   | 2027-06-01 |
@@ -41,12 +41,12 @@ Note that some of these version supports apply broadly to other languages as wel
 | C++ Version     | >= 17                  | 2024-12-17   | 2027-12-15  |
 | CMake           | >= 3.22                | 2025-06-04   | 2027-05-01 [^cmake] |
 | Bazel           | 8 LTS                  | 2025-12-16   | 2026-12-01  |
-| GCC             | >= 7.5.0               | 2024-07-01   | 2026-01-01 [^gcc] |
+| GCC             | >= 7.5.0               | 2024-07-01   | 2026-04-30 [^gcc] |
 | Clang           | >= 14.0.0              | 2025-06-04   | 2027-05-01 [^clang] |
 | MSVC            | >= 2022                | 2024-04-29   | 2027-01-12  |
 | Apple Clang     | >= 17                  | 2025-12-19   | 2026-07-01 |
 | glibc           | >= 2.27                | 2024-07-09   | TBD [^glibc] |
-| musl            | >= 1.2.4               | 2024-12-17   | 2025-05-09 |
+| musl            | >= 1.2.5               | 2026-04-01   | 2026-11-01 |
 
 [^next-change]: This is an estimated date. The actual date may change if the
 vendor (or community, as applicable) extends or shortens the lifetime of the
@@ -56,8 +56,9 @@ dimension in question.
 supported distros. Currently that is CMake 3.22 as Ubuntu 22.04 ships with this
 version.
 
-[^gcc]: Once openSUSE/Leap 15.5 reaches EOL we will support the oldest
-version of GCC that ships with one of the supported distros.
+[^gcc]: We support the oldest version of GCC that ships with one of the
+supported distros. Currently that is GCC 7.5.0 as openSUSE Leap 15.6 ships
+with this version.
 
 [^clang]: We support the oldest version of Clang that ships with one of the
 supported distros. Currently that is Clang 14.0 as Ubuntu 22.04 ships with
