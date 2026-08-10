@@ -9,7 +9,7 @@ Note that some of these version supports apply broadly to other languages as wel
 | Distribution    | Supported Version      | Last Changed | Next Change [^next-change] |
 |-----------------|------------------------|--------------|-------------|
 | Alpine          | >= 3.21                | 2026-04-01   | 2026-11-01 |
-| Debian          | >= 11                  | 2024-07-01   | 2026-06-30 |
+| Debian          | >= 13                  | 2026-08-10   | 2028-08-09 |
 | Fedora          | >= 42                  | 2025-12-16   | 2026-05-13 |
 | openSUSE        | >= Leap 16.0           | 2026-05-01   | 2027-10-31 |
 | Ubuntu LTS      | >= 22.04               | 2025-06-04   | 2027-05-01 |
@@ -45,7 +45,7 @@ Note that some of these version supports apply broadly to other languages as wel
 | Clang           | >= 14.0.0              | 2025-06-04   | 2027-05-01 [^clang] |
 | MSVC            | >= 2022                | 2024-04-29   | 2027-01-12  |
 | Apple Clang     | >= 17                  | 2025-12-19   | 2026-07-01 |
-| glibc           | >= 2.27                | 2024-07-09   | TBD [^glibc] |
+| glibc           | >= 2.34                | 2024-07-09   | 2027-06-01 [^glibc] |
 | musl            | >= 1.2.5               | 2026-04-01   | 2026-11-01 |
 
 [^next-change]: This is an estimated date. The actual date may change if the
@@ -64,7 +64,9 @@ version.
 supported distros. Currently that is Clang 14.0 as Ubuntu 22.04 ships with
 this version.
 
-[^glibc]: We plan to support glibc >= 2.27 until further notice.
+[^glibc]: We support the oldest version of glibc shipping with any of our
+supported distros.  Currently that is glibc 2.34 shipping with RHEL 9 and
+RockyLinux 9
 
 ### Notes
 
