@@ -66,7 +66,8 @@ this version.
 
 [^glibc]: We support the oldest version of glibc shipping with any of our
 supported distros.  Currently that is glibc 2.34 shipping with RHEL 9 and
-RockyLinux 9
+RockyLinux 9.  Internally, we currently support glibc 2.27 and may have code
+referencing that.  We do not guarantee that it will work though.
 
 ### Notes
 
