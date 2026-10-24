@@ -16,7 +16,7 @@ document captures the specific version numbers as resolved by those policies.
 
 | Dimension       | Supported Version | Last Changed | Next Change [^next-change] |
 |-----------------|-------------------|--------------|----------------------------|
-| Python Version  | >= 3.10           | 2025-12-16   | 2026-10-31                 |
+| Python Version  | >= 3.11           | 2026-10-26   | 2027-10-31                 |
 
 [^next-change]: This is an estimated date. The actual date may change if the
 vendor (or community, as applicable) extends or shortens the lifetime of the
