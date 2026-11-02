@@ -7,7 +7,7 @@ The relevant policies are described at https://cloud.google.com/java/docs/suppor
 
 > Cloud Client Libraries for Java are compatible with, and tested against Java
 > 8, Java 11, Java 17, Java 21 and Java 25. Java 8 will continue to be supported
-> by Cloud Client Libraries for Java until at least September 2026.
+> by Cloud Client Libraries for Java until at least September 2027.
 
 On Android, we support the minimum SDK version that is supported by
 [Google Play services](https://developers.google.com/android/guides/setup)
@@ -18,7 +18,7 @@ If the versions differ, the lower version is supported.
 
 | Dimension         | Supported Version | Last Changed | Next Change [^next-change] |
 |-------------------|-------------------|--------------|----------------------------|
-| Java Version      | >= 8              | 2024-01-30   | 2026-11-12                 |
+| Java Version      | >= 8              | 2024-01-30   | 2027-09-01                 |
 | Android API Level | >= 24             | 2026-10-20   | 2027-06-01                 |
 
 [^next-change]: This is an estimated date. The actual date may change if the
