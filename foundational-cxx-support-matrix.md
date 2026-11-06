@@ -20,7 +20,7 @@ visualization.
 
 | Distribution    | Supported Version      | Last Changed | Next Change [^next-change] |
 |-----------------|------------------------|--------------|-------------|
-| Alpine          | >= 3.21                | 2026-04-01   | 2026-11-01 |
+| Alpine          | >= 3.22                | 2026-11-01   | 2027-05-01 |
 | Debian          | >= 13                  | 2026-08-10   | 2028-08-09 |
 | Fedora          | >= 43                  | 2026-09-17   | 2026-12-10 |
 | openSUSE        | >= Leap 16.0           | 2026-05-01   | 2027-10-31 |
@@ -42,8 +42,8 @@ visualization.
 
 | Dimension       | Supported Version      | Last Changed | Next Change [^next-change] |
 |-----------------|------------------------|--------------|-------------|
-| Windows Server  | >= 2022                | 2024-01-22   | 2026-10-13 |
-| Windows Client  | >= 11                  | 2025-12-16   | 2026-10-13 |
+| Windows Server  | >= 2025                | 2026-10-13   | 2029-11-13 |
+| Windows Client  | >= 11                  | 2025-12-16   | 2027-10-12 |
 
 ## macOS
 
@@ -110,7 +110,7 @@ page shows Chrome's support timelines.
 | MSVC            | >= 2022                | 2024-04-29   | 2027-01-12  |
 | Apple Clang     | >= 21                  | 2026-09-17   | 2027-09-15 [^apple-clang] |
 | glibc           | >= 2.34                | 2024-07-09   | 2027-06-01 [^glibc] |
-| musl            | >= 1.2.5               | 2026-04-01   | 2026-11-01 |
+| musl            | >= 1.2.5               | 2026-04-01   | 2027-05-01 |
 
 ### Implied Support Matrix [Detailed Linux Breakdown]
 
@@ -118,11 +118,11 @@ This table charts the default package version from major Linux distributions
 that comes with a standard install on our oldest supported distro major version,
 along with the resulting minimum supported version across all distros.
 
-NOTE: This table should be audited again on or after 2026-11-01.
+NOTE: This table should be audited again on or after 2026-12-10.
 
 | Distribution (Oldest Supported) | C++ Version | CMake       | GCC         | Clang       | glibc       | musl         |
 |---------------------------------|-------------|-------------|-------------|-------------|-------------|--------------|
-| Alpine (3.21)                   | 17          | 3.31        | 14.2        | 19.1        | N/A         | 1.2.5        |
+| Alpine (3.22)                   | 17          | 3.31        | 14.2        | 20.1        | N/A         | 1.2.5        |
 | Debian (13)                     | 17          | 3.31        | 14.2        | 19.0        | 2.41        | 1.2.5        |
 | Fedora (43)                     | 17          | 3.31        | 15.2        | 21.1        | 2.42        | 1.2.6        |
 | openSUSE (Leap 16.0)            | 17          | 4.3.4       | 15.0        | 22.0        | 2.43        | N/A          |
