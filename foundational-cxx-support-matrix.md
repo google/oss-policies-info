@@ -11,18 +11,28 @@ Note that some of these version supports apply broadly to other languages as wel
 
 > We will support releases of the following Linux distributions until the vendor
 > drops support.
+>
+> Some vendors have different support levels depending on the age of the
+> product. They may start with a "Full" or "Active" support period, and
+> eventually go to a "Extended" or "Security Only" support period. We only
+> support our libraries with distributions still under "Active" or "Full"
+> support.
 
 Vendor support is obtained from published support windows.
 https://endoflife.date/ consolidates these support windows on top of providing a
 visualization.
+
+For Debian, the end of "Full" support is the "End of Life (EOL)" date on
+https://www.debian.org/releases/, three years after release. The two years of
+Long Term Support (LTS) that follow are security-only, so we do not count them.
 
 ### Implied Support Matrix
 
 | Distribution    | Supported Version      | Last Changed | Next Change [^next-change] |
 |-----------------|------------------------|--------------|-------------|
 | Alpine          | >= 3.21                | 2026-04-01   | 2026-11-01 |
-| Debian          | >= 13                  | 2026-08-10   | 2028-08-09 |
-| Fedora          | >= 43                  | 2026-09-17   | 2026-12-10 |
+| Debian          | >= 13                  | 2026-07-11   | 2028-08-09 |
+| Fedora          | >= 43                  | 2026-09-17   | 2026-12-16 |
 | openSUSE        | >= Leap 16.0           | 2026-05-01   | 2027-10-31 |
 | Ubuntu LTS      | >= 22.04               | 2025-06-04   | 2027-05-01 |
 | RHEL            | >= 9                   | 2024-07-01   | 2027-06-01 |
@@ -105,11 +115,11 @@ page shows Chrome's support timelines.
 | C++ Version     | >= 17                  | 2024-12-17   | 2027-12-15  |
 | CMake           | >= 3.22                | 2025-06-04   | 2027-05-01 [^cmake] |
 | Bazel           | 8 LTS                  | 2025-12-16   | 2026-12-01  |
-| GCC             | >= 11.2                | 2026-09-17   | 2027-06-30 [^gcc] |
+| GCC             | >= 11.4                | 2026-05-01   | 2027-05-01 [^gcc] |
 | Clang           | >= 14.0.0              | 2025-06-04   | 2027-05-01 [^clang] |
 | MSVC            | >= 2022                | 2024-04-29   | 2027-01-12  |
 | Apple Clang     | >= 21                  | 2026-09-17   | 2027-09-15 [^apple-clang] |
-| glibc           | >= 2.34                | 2024-07-09   | 2027-06-01 [^glibc] |
+| glibc           | >= 2.34                | 2026-08-31   | 2027-06-01 [^glibc] |
 | musl            | >= 1.2.5               | 2026-04-01   | 2026-11-01 |
 
 ### Implied Support Matrix [Detailed Linux Breakdown]
@@ -120,15 +130,15 @@ along with the resulting minimum supported version across all distros.
 
 NOTE: This table should be audited again on or after 2026-11-01.
 
-| Distribution (Oldest Supported) | C++ Version | CMake       | GCC         | Clang       | glibc       | musl         |
+| Distribution (Oldest Supported) | C++ Version | CMake       | GCC         | Clang       | glibc       | musl [^musl] |
 |---------------------------------|-------------|-------------|-------------|-------------|-------------|--------------|
 | Alpine (3.21)                   | 17          | 3.31        | 14.2        | 19.1        | N/A         | 1.2.5        |
 | Debian (13)                     | 17          | 3.31        | 14.2        | 19.0        | 2.41        | 1.2.5        |
-| Fedora (43)                     | 17          | 3.31        | 15.2        | 21.1        | 2.42        | 1.2.6        |
+| Fedora (43)                     | 17          | 3.31        | 15.2        | 21.1        | 2.42        | 1.2.5        |
 | openSUSE (Leap 16.0)            | 17          | 4.3.4       | 15.0        | 22.0        | 2.43        | N/A          |
 | RHEL / RockyLinux (9)           | 17          | 3.31        | 11.5        | 21.1        | 2.34        | N/A          |
-| Ubuntu LTS (22.04)              | 17          | 3.22        | 11.2        | 14.0        | 2.35        | 1.2.5        |
-| **Minimum Supported**           | **>= 17**   | **>= 3.22** | **>= 11.2** | **>= 14.0** | **>= 2.34** | **>= 1.2.5** |
+| Ubuntu LTS (22.04)              | 17          | 3.22        | 11.4        | 14.0        | 2.35        | N/A          |
+| **Minimum Supported**           | **>= 17**   | **>= 3.22** | **>= 11.4** | **>= 14.0** | **>= 2.34** | **>= 1.2.5** |
 
 [^next-change]: This is an estimated date. The actual date may change if the
 vendor (or community, as applicable) extends or shortens the lifetime of the
@@ -139,8 +149,8 @@ supported distros. Currently that is CMake 3.22 as Ubuntu 22.04 ships with this
 version.
 
 [^gcc]: We support the oldest version of GCC that ships with one of the
-supported distros. Currently that is GCC 11.2 as Ubuntu 22.04 ships with this
-version.
+supported distros. Currently that is GCC 11.4, which Ubuntu 22.04 ships in its
+updates (it was released with 11.2).
 
 [^clang]: We support the oldest version of Clang that ships with one of the
 supported distros. Currently that is Clang 14.0 as Ubuntu 22.04 ships with
@@ -153,6 +163,11 @@ this version.
 supported distros.  Currently that is glibc 2.34 shipping with RHEL 9 and
 RockyLinux 9.  Internally, we currently support glibc 2.27 and may have code
 referencing that.  We do not guarantee that it will work though.
+
+[^musl]: We list musl only for distros whose vendor ships and supports it.
+Ubuntu 22.04 ships musl 1.2.2 only in universe, which Canonical's standard
+security maintenance does not cover. RHEL / RockyLinux 9 and openSUSE Leap 16.0
+do not ship it.
 
 ### Notes
 
