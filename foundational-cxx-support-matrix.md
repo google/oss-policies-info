@@ -36,13 +36,15 @@ visualization.
 >
 > We will support all the Windows versions that Microsoft supports.
 > i.  [Windows client support](https://docs.microsoft.com/en-us/windows/release-health/supported-versions-windows-client)
-> ii. [Windows server support](https://endoflife.date/windows-server)
+> ii. [Windows server support](https://endoflife.date/windows-server) in the
+>     Mainstream Support window as defined by Microsoft's
+>     [Fixed Lifecycle Policy](https://learn.microsoft.com/en-us/lifecycle/policies/fixed).
 
 ### Implied Support Matrix
 
 | Dimension       | Supported Version      | Last Changed | Next Change [^next-change] |
 |-----------------|------------------------|--------------|-------------|
-| Windows Server  | >= 2022                | 2024-01-22   | 2026-10-13 |
+| Windows Server  | >= 2025                | 2026-11-09   | 2029-11-13 |
 | Windows Client  | >= 11                  | 2025-12-16   | 2027-10-12 |
 
 ## macOS
@@ -104,8 +106,8 @@ page shows Chrome's support timelines.
 |-----------------|------------------------|--------------|-------------|
 | C++ Version     | >= 17                  | 2024-12-17   | 2027-12-15  |
 | CMake           | >= 3.22                | 2025-06-04   | 2027-05-01 [^cmake] |
-| Bazel           | 8 LTS                  | 2025-12-16   | 2026-12-01  |
-| GCC             | >= 11.2                | 2026-09-17   | 2027-06-30 [^gcc] |
+| Bazel           | >= 8 LTS               | 2025-12-16   | 2027-01-20  |
+| GCC             | >= 11.2                | 2026-09-17   | 2027-05-01 [^gcc] |
 | Clang           | >= 14.0.0              | 2025-06-04   | 2027-05-01 [^clang] |
 | MSVC            | >= 2022                | 2024-04-29   | 2027-01-12  |
 | Apple Clang     | >= 21                  | 2026-09-17   | 2027-09-15 [^apple-clang] |
